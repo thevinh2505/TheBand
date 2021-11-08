@@ -1,0 +1,116 @@
+@media (min-width:46.25em) and (max-width:63.9375em){
+
+}
+@media (max-width:63.9375em){
+    .slider-text b{
+        text-shadow: 0 0 1px #000;
+    }
+    .buy-btn{
+        padding:14px 16px;
+    }
+    .form-control{
+        padding:15px;
+    }
+    .social-list{
+        margin-bottom: 42px;
+    }
+    .social-list a{
+        padding: 0 6px;
+    }
+    .social-list a i{
+        font-size: 28px;
+    }
+    .contact-icon{
+        line-height: 2;
+    }
+
+}
+@media (max-width:46.1875em) {
+    .s-col-full{
+        width: 100%;
+    }
+    .header{
+        overflow: hidden;
+    }  
+    .search-btn{
+        display: none;
+    }
+    .header .nav{
+        display: block;
+    }
+    .header .nav li{
+        display: block;
+    }
+    .nav>li:first-child{
+        display: inline-block;
+    }
+    .nav li a{
+        display: block;
+    }
+    .nav .subnav{
+        position: initial;
+        background: #333;
+    }
+    .nav .subnav a{
+        color:white;
+        padding:15px 41px
+    }
+    .menu-btn{
+        color: white;
+        padding: 16px 23px;
+        height: 46.4px;
+        font-size: 15px;
+        position: absolute;
+        top:0;
+        right:0;
+        display: block !important;
+    }
+    .menu-btn:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+    /* SLIDER  */
+    .slider-text{
+        display: none;
+    }
+    /* MEMBER  */
+    .content-section{
+        padding:64px 16px;
+    }
+    .member-list{
+        display: block;
+    }
+    .member-list .member-item{
+        width: 100%;
+    }
+
+    /* PLACE-LIST */
+    .place-list .place-item{
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .buy-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* CONTACT */
+    .contact-icon{
+        width: 100%;
+    }
+    .contact-info{
+        margin-top: 10px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .input-div:first-child{
+        margin-bottom: 8px;
+    }
+    .input-div{
+        width:100% !important;
+    }
+}
